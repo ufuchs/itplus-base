@@ -22,7 +22,7 @@ type (
 
 	MeasurementDTO struct {
 		Host           string  `json:"host"`
-		Num            float32 `json:"num"`
+		Num            int     `json:"num"`
 		Alias          string  `json:"alias"`
 		PhenomenonTime int64   `json:"phenomenontime"`
 		Lon            float64 `json:"lon"`
